@@ -1490,7 +1490,7 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-
+	
 }
 
 /* Smartphones (portrait) ----------- */
@@ -1511,7 +1511,38 @@ and (max-width : 320px) {
 	#maisdigital .card {
 	    height: 475px;
 	}
-}
+	.device-iphone-x {
+		margin-left: -104px;
+		transform: scale(0.5);
+	}
+	label.quiz_checkbox span:first-child {
+		float: right;
+		width: 82%;
+	}
+	.setup-content .range__amount {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.ms-parent {
+		margin-bottom: 87px;
+	}
+	input.ss-q-radio {
+		width: 20px;
+		height: 20px;
+	}
+	.aria-todo {
+		font-size: 8pt;
+	}
+	#resultado .tab-content .card {
+		height: 410px!important;
+	}
+	#title_resultado {
+		font-size: 2rem;
+	}
+	.endbutton{
+		background: #06ff67;
+		color: #424242;
+	}
 
 @media (min-width: 576px){
 	.mt-sm-11, .my-sm-11 {
