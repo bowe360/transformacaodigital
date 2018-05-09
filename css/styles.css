@@ -1490,6 +1490,13 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+/* viewport size <= 320px ----------- */
+@media only screen 
+and (max-width : 320px) {
 	#explore .title {
 		font-size: 15pt;
 	}
@@ -1501,13 +1508,9 @@ and (min-width : 321px) {
 	.marker_item .botaoverde {
 		float: left;
 	}
-}
-
-/* Smartphones (portrait) ----------- */
-/* viewport size <= 320px ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
+	#maisdigital .card {
+	    height: 475px;
+	}
 }
 
 @media (min-width: 576px){
